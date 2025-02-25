@@ -29,11 +29,14 @@
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (https://davidmiller.io/)"
+        {
+            "name": "David Miller",
+            "url": "https://davidmiller.io/"
+        }
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-grayscale.git"
+        "url": "git+https://github.com/StartBootstrap/startbootstrap-grayscale.git"
     },
     "dependencies": {
         "bootstrap": "5.2.3"
@@ -46,8 +49,10 @@
         "postcss": "8.4.21",
         "prettier": "2.8.6",
         "pug": "3.0.2",
+        "pug-cli": "^1.0.0-alpha6",
         "sass": "1.60.0",
         "shelljs": "0.8.5",
         "upath": "2.0.1"
-    }
+    },
+    "main": "index.js"
 }
