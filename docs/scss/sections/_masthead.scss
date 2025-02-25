@@ -13,15 +13,14 @@
         font-size: 6.5rem;
         line-height: 6.5rem;
         letter-spacing: 0.8rem;
-        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1));
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Make text pop more */
+        color: white; /* Make text fully visible */
+        background: none; /* Remove gradient background */
+        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8); /* Stronger shadow for better visibility */
     }
 
     h2 {
         max-width: 30rem;
         font-size: 1.25rem;
-        color: #fff; /* Ensure the subheading is white for contrast */
+        color: #fff; /* Ensure subheading is readable */
     }
 }
